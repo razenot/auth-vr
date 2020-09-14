@@ -20,7 +20,7 @@
 			<div class="form-row">
 				<div class="form-group col-md-6">
 					<label for="name">Имя</label>
-					<input type="text" class="form-control" name="name" minlength="2" maxlength="128" placeholder="Иванов Иван Иванович" pattern="^[а-яА-ЯёЁa-zA-Z0-9\s]+$" required="required" />
+					<input type="text" class="form-control" name="name" minlength="2" maxlength="128" pattern="^[а-яА-ЯёЁa-zA-Z0-9\s]+$" required="required" />
 				</div>
 				<div class="form-group col-md-6">
 					<label for="login">Логин</label>
@@ -34,13 +34,13 @@
 				</div>
 				<div class="form-group col-md-6">
 					<label for="address">Адрес</label>
-					<input type="text" class="form-control" name="address" maxlength="256" placeholder="г.Астрахань, Челябинская улица, 1">
+					<input type="text" class="form-control" name="address" maxlength="256">
 				</div>
 			</div>
 			<div class="form-row">
 				<div class="form-group col-md-6">
 					<label for="password">Пароль</label>
-					<input type="password" class="form-control" name="password" maxlength="64" placeholder="Пароль не менее 8 символов" pattern="(?=^\S.{7,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).\S*$" required="required">
+					<input type="password" class="form-control" name="password" maxlength="64" placeholder="не менее 8 символов" pattern="(?=^\S.{7,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).\S*$" required="required">
 				</div>
 				<div class="form-group col-md-6">
 					<label for="confirm-password">Подтвердите пароль</label>
